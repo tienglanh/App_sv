@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start" (click)="dismiss()"
+      ><ion-icon name="arrow-round-back"></ion-icon>
+    </ion-buttons>
+    <ion-title text-center>Thông tin chi tiết</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <p>tên: {{ name }}</p>
+    <p>mã sô: {{ id }}</p>
+  </ion-list>
+</ion-content>
